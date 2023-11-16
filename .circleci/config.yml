@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: python:3.11.4
-    working_directory: /app
+    working_directory: /
     steps:
       - checkout
       - run:
