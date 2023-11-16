@@ -21,7 +21,7 @@ jobs:
       - run:
           name: Build Docker image
           command: |
-            docker build -t $DOCKER_USERNAME/est_driven_development:v1 .
+            docker build -t $DOCKER_USERNAME/test_driven_development:v1 .
       - run:
           name: Push to Docker Hub
           command: |
